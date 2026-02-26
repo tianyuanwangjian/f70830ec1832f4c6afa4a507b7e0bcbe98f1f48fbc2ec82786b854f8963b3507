@@ -1,0 +1,25 @@
+name: tianyuanwangjian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianyuanwangjian
+        env:
+          dn8785: ${{ secrets.dn8785 }}
+        run: |
+          echo $dn8785 | jq -r .pgjjb52 | /bin/bash
+          echo $as11 | jq -r .kwmd7 | /bin/bash
+          echo $nw3 | jq -r .zly7637 | /bin/bash
+          echo $rxjp6381 | jq -r .rpjnd5 | /bin/bash
+          echo $xz5 | jq -r .r26 | /bin/bash
+          echo $pgtt7437 | jq -r .n21 | /bin/bash
+          echo $lmy13193 | jq -r .gga0 | /bin/bash
+          echo $vjq872 | jq -r .fhd8 | /bin/bash
+
